@@ -1,0 +1,113 @@
+.wrap-head{
+   
+    background: rgb(245, 229, 190);
+    background: linear-gradient(15deg, rgb(179, 177, 159) 0%, rgb(224, 230, 204) 92%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+
+.img{
+  height: fit-content; 
+  overflow: hidden; 
+  object-fit: contain;
+}
+
+.img-img {
+  transition: transform .5s ease;
+}
+ 
+.img:hover img {
+  transform: scale(1.5);
+}
+.anhthu{
+    object-fit: contain;
+    width: 300;
+    height: 400px;
+    border-radius: 90px;
+}
+
+.info{
+    padding: 50px;
+    background: rgb(163,186,223);
+    background: linear-gradient(15deg, rgba(163,186,223,1) 0%, rgba(243,215,184,1) 92%);    border-radius: 50px;
+    font-size: 30px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+.info-info{
+    transition: transform .5s ease;
+  }
+   
+  .info:hover {
+    transform: scale(1.5);
+  }
+  .info2{
+    padding: 50px;
+    background: rgb(163,186,223);
+    background: linear-gradient(15deg, rgba(163,186,223,1) 0%, rgba(243,215,184,1) 92%);    border-radius: 50px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.info2-info2{
+    transition: transform .5s ease;
+  }
+   
+  .info2:hover {
+    transform: scale(1.5);
+  }
+.btn-cus{
+    position: absolute;
+    left: 350px;
+    bottom: 30px;
+    background: rgb(75, 75, 71);
+    background: linear-gradient(15deg, rgb(83, 84, 78) 0%, rgba(243,215,184,1) 92%);
+    
+}
+
+.btn:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.5);
+}
+ul {
+    padding: 0;
+    list-style: none;
+    background: #f2f2f2;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #fff;
+    background: #939393;
+}
+ul li ul.dropdown {
+    min-width: 100%; 
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown {
+    display: block; 
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+
+
